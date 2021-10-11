@@ -1,0 +1,30 @@
+.selected-options-container{
+    max-width: 300px;
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.selected-options{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+    background-color: rgb(58, 55, 233);
+    border-radius: 5px;
+    padding: 0 10px; 
+    box-sizing: border-box;
+    color: white;
+    flex-wrap: wrap;
+    margin: 5px 5px;
+}
+.selected-options .close-btn {
+    cursor: pointer;
+    font-size: .6em;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 10px;
+}
